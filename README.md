@@ -4,11 +4,11 @@
 ![Boxes](figures/boxes.jpg)
 
 ## Both slider and push button boxes
-- Frequency: 10Hz
+- Frequency: 10Hz.
 - Data is stored in a folder `/data` as csv file.
 - To run:
-1. Download with https://processing.org
-2. Install libraries `controlP5`, `cc.arduino`
+1. Download with https://processing.org.
+2. Install libraries `controlP5`, `cc.arduino`.
 
 ## Slider box
 - Range of slider 0-1023 (mapped to 1-100).
@@ -27,7 +27,7 @@
 ## Synchronised work of both boxes at the same time
 - Code: `CrossBoxBoth.pde`
 - Need to be connected to the same device.
-- Data: timestamp, raw value slider, mapped value slider, raw value button
+- Data: timestamp, raw value slider, mapped value slider, raw value button.
 
 ## Troubleshooting
 1. Not working? - Check COM port mapping.
