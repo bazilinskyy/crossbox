@@ -5,6 +5,7 @@
 
 ## Both slider and push button boxes
 Frequency: 10Hz
+
 Data is stored in a folder `/data` as csv file.
 To run:
 1. Download with https://processing.org
@@ -12,9 +13,13 @@ To run:
 
 ## Slider box
 Range of slider 0-1023 (mapped to 1-100)
+
 Code: `CrossBoxS.pde`
+
 After connecting by USB, need to change serial port number by hand (`CrossBoxS:63`)
+
 Pins in analogue read. Data pin (red) should be in `Digital 2`. The other ones in `5V` (blue) and `Ground` (orange).
+
 Data: timestamp, raw value, mapped value
 
 ## Push button box
