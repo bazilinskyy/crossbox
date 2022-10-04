@@ -3,7 +3,7 @@
 
 ![Boxes](figures/boxes.jpg)
 
-## All
+## Both slider and push button boxes
 Frequency: 10Hz
 Data is stored in a folder `/data` as csv file.
 To run:
