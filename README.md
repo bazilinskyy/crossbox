@@ -1,5 +1,5 @@
 # Box for getting slider and push button input
-Initial version of code by https://github.com/deydavedey.
+🚀 Initial version of code by https://github.com/deydavedey.
 
 ![Boxes](figures/boxes.jpg)
 
