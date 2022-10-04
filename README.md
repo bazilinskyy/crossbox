@@ -24,14 +24,20 @@ Data: timestamp, raw value, mapped value
 
 ## Push button box
 Probably 0 and 1
+
 Code: `CrossBoxP.pde`
-After connecting by USB, need to change serial port number by hand (CrossBoxP:54)
+
+After connecting by USB, need to change serial port number by hand (`CrossBoxP:54`)
+
 Pins go to `5V`, `Ground`, `A0`.
+
 Data: timestamp, raw value (0/1)
 
 ## Synchronisation
 Code: `CrossBoxBoth.pde`
+
 Need to be connected to the same device.
+
 Data: timestamp, raw value slider, mapped value slider, raw value button
 
 Troubleshooting
