@@ -1,6 +1,8 @@
 # Box for getting slider and push button input
 Initial version of code by https://github.com/deydavedey.
 
+![Boxes](figures/boxes.jpg)
+
 ## All
 Frequency: 10Hz
 Data is stored in a folder `/data` as csv file.
@@ -30,4 +32,4 @@ Data: timestamp, raw value slider, mapped value slider, raw value button
 Troubleshooting
 1. Not working? - Check COM port mapping.
 2. Not working? - Try `Firmata flush` in the Arduino IDE (as image below).
-![](figures/firmata.jpg)
+![Firmata flush](figures/firmata.jpg)
